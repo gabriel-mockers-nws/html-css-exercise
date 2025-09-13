@@ -1,0 +1,1 @@
+Ce dossier contient un exercice pratique d'HTML et de CSS réalisé dans le cadre de ma formation. Il permet de mettre en application les notions fondamentales du développement web, telles que la structuration d'une page avec HTML et la mise en forme avec CSS.

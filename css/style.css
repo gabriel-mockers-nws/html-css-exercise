@@ -679,3 +679,106 @@ input:focus-visible {
         text-align: center;
     }
 }
+
+/**DARK MODE*/ 
+
+/*Switch*/
+.dark-mode-switch {
+    position: relative;
+    width: 50px;
+    height: 28px;
+    background-color: var(--primary-300);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-left: 16px; 
+}
+
+.dark-mode-switch .switch-circle {
+    width: 20px;
+    height: 20px;
+    background-color: var(--essential-white);
+    border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.dark-mode-switch.active {
+    background-color: var(--essential-black);
+}
+
+.dark-mode-switch.active .switch-circle {
+    transform: translateX(22px);
+    background-color: var(--primary-200);
+}
+
+
+    body.dark-mode {
+        background-color: var(--essential-black);
+        color: var(--essential-white);
+    }
+
+    body.dark-mode h1{
+        color: var(--essential-white);
+    }
+
+    body.dark-mode .card{
+        color: #0D0619;
+    }
+
+    body.dark-mode .card-1 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .card-2 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .card-3 {
+        background-color: var(--essential-gray);
+    }
+
+    body.dark-mode .dis-card{
+        color: #0D0619;
+    }
+
+    body.dark-mode .dis-card-1 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .dis-card-2 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .dis-card-3 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .dis-card-4 {
+        background-color: var(--essential-gray);
+    }
+
+    body.dark-mode .future-card{
+        color: #0D0619;
+    }
+
+    body.dark-mode .future-card-1 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .future-card-2 {
+        background-color: var(--essential-gray);
+    }
+    body.dark-mode .future-card-3 {
+        background-color: var(--essential-gray);
+    }
+
+
+    body.dark-mode .christine{
+        background-color: var(--essential-black);
+        color: #0D0619;
+    }
+
+    body.dark-mode .annaick{
+        background-color: var(--essential-black);
+        color: #0D0619;
+    }
+
+    body.dark-mode .final-txt{
+        background-color: var(--essential-gray);
+    }
